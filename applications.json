@@ -1,7 +1,7 @@
 {
     "applications": [ 
         { 
-            "id": "Partial", 
+            "id":1, 
             "name":"John Smith", 
             "position":"Server", 
             "applied":"03/15/19", 
@@ -25,7 +25,7 @@
                 }
             ] 
         }, { 
-            "id": "Open", 
+            "id":2, 
             "name":"Aleksandr Dahl", 
             "position":"Dishwasher", 
             "applied":"04/03/19", 
