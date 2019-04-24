@@ -1,0 +1,414 @@
+{
+    "applications": [ 
+        { 
+            "id": "Partial", 
+            "name":"John Smith", 
+            "position":"Server", 
+            "applied":"03/15/19", 
+            "experience":2, 
+            "availability":{ 
+                "M": "Open", 
+                "T": "Open", 
+                "W": "Partial", 
+                "Th": "Open", 
+                "F": "Partial", 
+                "S": "Unavailable", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[  
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"No" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                }
+            ] 
+        }, { 
+            "id": "Open", 
+            "name":"Aleksandr Dahl", 
+            "position":"Dishwasher", 
+            "applied":"04/03/19", 
+            "experience":2, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Open", 
+                "W": "Open", 
+                "Th": "Unavailable", 
+                "F": "Partial", 
+                "S": "Open", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"No" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":3, 
+            "name":"Alfred Sams", 
+            "position":"Bartender", 
+            "applied":"04/09/19", 
+            "experience":1, 
+            "availability":{ 
+                "M": "Open", 
+                "T": "Open", 
+                "W": "Partial", 
+                "Th": "Unavailable", 
+                "F": "Partial", 
+                "S": "Open", 
+                "Su": "Partial" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"Yes" 
+                } 
+            ] 
+        }, { 
+            "id":4, 
+            "name":"Mina Cantrell", 
+            "position":"Host", 
+            "applied":"04/11/19", 
+            "experience":5, 
+            "availability":{ 
+                "M": "Unavailable", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Unavailable", 
+                "F": "Partial", 
+                "S": "Open", 
+                "Su": "Partial" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":5, 
+            "name":"Max Daniel", 
+            "position":"Maintenance", 
+            "applied":"04/15/19", 
+            "experience":2, 
+            "availability":{ 
+                "M": "Unavailable", 
+                "T": "Unavailable", 
+                "W": "Open", 
+                "Th": "Open", 
+                "F": "Partial", 
+                "S": "Open", 
+                "Su": "Partial" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":6, 
+            "name":"Irena Sultan", 
+            "position":"Dishwasher", 
+            "applied":"03/20/19", 
+            "experience":3, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Open", 
+                "F": "Partial", 
+                "S": "Unavailable", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":7, 
+            "name":"Kumar Velichkov", 
+            "position":"Host", 
+            "applied":"03/26/19", 
+            "experience":5, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Open", 
+                "F": "Partial", 
+                "S": "Unavailable", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":8, 
+            "name":"Rosa Hathway", 
+            "position":"Host", 
+            "applied":"03/28/19", 
+            "experience":8, 
+            "availability":{ 
+                "M": "Open", 
+                "T": "Unavailable", 
+                "W": "Open", 
+                "Th": "Open", 
+                "F": "Partial", 
+                "S": "Open", 
+                "Su": "Unavailable"
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"Yes" 
+                } 
+            ] 
+        }, { 
+            "id":9, 
+            "name":"Nadica Davids", 
+            "position":"Chef", 
+            "applied":"04/06/19", 
+            "experience":2, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Unavailable", 
+                "W": "Partial", 
+                "Th": "Open", 
+                "F": "Unavailable", 
+                "S": "Open", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":10, 
+            "name":"Adina Simmon", 
+            "position":"Bartender", 
+            "applied":"04/19/19", 
+            "experience":10, 
+            "availability":{ 
+                "M": "Open", 
+                "T": "Open", 
+                "W": "Partial", 
+                "Th": "Open", 
+                "F": "Unavailable", 
+                "S": "Partial", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"No" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"Yes" 
+                } 
+            ] 
+        }, { 
+            "id":11, 
+            "name":"Forest Becker", 
+            "position":"Chef", 
+            "applied":"04/13/19", 
+            "experience":1, 
+            "availability":{ 
+                "M": "Unavailable", 
+                "T": "Unavailable", 
+                "W": "Partial", 
+                "Th": "Open", 
+                "F": "Open", 
+                "S": "Partial", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":12, 
+            "name":"Eun-Young Morin", 
+            "position":"Dishwasher", 
+            "applied":"03/13/19", 
+            "experience":0, 
+            "availability":{ 
+                "M": "Unavailable", 
+                "T": "Open", 
+                "W": "Partial", 
+                "Th": "Open", 
+                "F": "Unavailable", 
+                "S": "Partial", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":13, 
+            "name":"Hanifa Hermanson", 
+            "position":"Bartender", 
+            "applied":"03/23/19", 
+            "experience":2, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Open", 
+                "W": "Open", 
+                "Th": "Partial", 
+                "F": "Unavailable", 
+                "S": "Open", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":14, 
+            "name":"Yasmeen Abrams", 
+            "position":"Host", 
+            "applied":"03/20/19", 
+            "experience":4, 
+            "availability":{ 
+                "M": "Open", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Partial", 
+                "F": "Unavailable", 
+                "S": "Unavailable", 
+                "Su": "Partial" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":15, 
+            "name":"Kapil Jiang", 
+            "position":"Server", 
+            "applied":"04/10/19", 
+            "experience":6, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Unavailable", 
+                "F": "Unavailable", 
+                "S": "Open", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":16, 
+            "name":"Patsy Mark", 
+            "position":"Server", 
+            "applied":"04/21/19", 
+            "experience":15, 
+            "availability":{ 
+                "M": "Partial", 
+                "T": "Partial", 
+                "W": "Open", 
+                "Th": "Partial", 
+                "F": "Unavailable", 
+                "S": "Open", 
+                "Su": "Unavailable" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }, { 
+            "id":17, 
+            "name":"Siddhi Norris", 
+            "position":"Server", 
+            "applied":"04/03/19", 
+            "experience":1, 
+            "availability":{ 
+                "M": "Unavailable", 
+                "T": "Unavailable", 
+                "W": "Open", 
+                "Th": "Partial", 
+                "F": "Open", 
+                "S": "Open", 
+                "Su": "Open" 
+            }, 
+            "questions":[ 
+                { 
+                    "text":"Are you authorized to work in the United States?", 
+                    "answer":"Yes" 
+                }, { 
+                    "text":"Have you ever been convicted of a felony?", 
+                    "answer":"No" 
+                } 
+            ] 
+        }
+    ]
+} 
+    
