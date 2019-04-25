@@ -12,6 +12,22 @@ class ApplicationCard extends HTMLElement {
                 border-radius: 20px;
                 padding: 0.5rem;
             }
+            .fa-star {
+                height: 0.5rem;
+                width: 0.5rem;
+                color: #D7D7DE;
+                float: right;
+                margin-right: 1rem;
+                margin-top: 0.5rem;
+            }
+            .fa-star:hover, .fa-star.fav {
+                height: 0.5rem;
+                width: 0.5rem;
+                color: #A7CC23;
+                float: right;
+                margin-right: 1rem;
+                margin-top: 0.5rem;
+            }
             .card_postion {
                 text-align: center;
                 color: #D7D7DE;
@@ -32,6 +48,9 @@ class ApplicationCard extends HTMLElement {
             }
             li {
                 list-style: none;
+            }
+            .card_experience {
+                color: #D7D7DE;
             }
             .card_availability {
                 color: #D7D7DE;
@@ -56,10 +75,12 @@ class ApplicationCard extends HTMLElement {
             }
         </style>
         <div class="container">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+            <i class="fas fa-star" onclick="favorite"></i>
             <h1 class="card_postion">${applications.position}</h2>
             <h3 class="card_name">${applications.name}</h4>
             <p class="card_applied">Applied: ${applications.applied}</p>
-            <button id="expander" onclick="">+</button>
+            <button id="expander" onClick="expand()">+</button>
             <div class="panel">
             <ul class="card_experience">
                     <h4>Experience</h4>
@@ -83,6 +104,21 @@ class ApplicationCard extends HTMLElement {
                 </ul>
             </div>
         </div>
+        <script>
+        const expand = () => {
+            //gets elements with ID of panel
+            const panel = this.getElementById('panel');
+            panel.classList.toggle('expanded');
+        }
+        const favorite = () => {
+            // gets array of elements by class name then sets the first result to star
+            const starSelector = this.getElementsByClassName('fa-star');
+            const star = starSelector[0];
+            star.classList.toggle('fav');
+
+            var.favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        }
+        </script>
         `;
     }
 
